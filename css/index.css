@@ -1,0 +1,216 @@
+html {
+  overflow-x: hidden;
+}
+body {
+  background-color: #f1f2f9;
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.image-type {
+  font-family: "Volkhov", serif;
+  color: #222;
+  font-size: 18px;
+}
+
+.nav-link {
+  color: #222 !important;
+  font-size: 15px;
+}
+
+.button-outline-login {
+  color: #fd8d3a;
+}
+
+.title-header {
+  font-family: "Volkhov", serif;
+  font-size: 64px;
+}
+
+.paragraph {
+  color: #666;
+  font-size: 20px;
+}
+
+.outline-button {
+  margin-top: 50px;
+  padding: 10px;
+  color: #ffa500;
+  border-color: #ffa500;
+}
+
+.img-header {
+  z-index: 1;
+}
+
+.square-cover {
+  background-color: #f1f2f9;
+  width: 490px;
+  height: 620px;
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.semi-circle {
+  background-color: #fa7436;
+  width: 490px;
+  height: 480px;
+  border-radius: 0 0 50% 50%;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+
+.card {
+  border: none;
+  background-color: transparent;
+  width: 165px;
+  margin-right: 10px;
+}
+
+.card-m4-horizontal {
+  background: #fff;
+  margin-top: 90px;
+  width: 841px;
+  height: 124px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 80px 2px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.card-m4-horizontal h3 {
+  font-size: 16px;
+}
+
+.second-section .card {
+  margin-top: 50px;
+  width: 100%;
+  height: 278px;
+  box-shadow: 14px 24px 72px 0px rgba(102, 102, 102, 0.1);
+  background-color: #fff;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.second-section .card-body {
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+}
+
+.second-section img{
+    padding-bottom: 10px;
+  }
+
+.second-section .card-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.second-section .card-text {
+  font-weight: 400;
+  font-size: 13px;
+  color: #666;
+}
+
+.third-section {
+  padding-top: 50px;
+}
+
+.third-section .img-card {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+}
+
+.icon-star {
+  width: 15px;
+  height: 15px;
+}
+
+.third-section .card {
+  border-radius: 8px;
+  width: 100%;
+  height: 310px;
+  box-shadow: 14px 24px 72px 0px rgba(102, 102, 102, 0.1);
+  background-color: #fff;
+  margin-bottom: 80px;
+}
+
+.four-section .img-card {
+  border-radius: 8px;
+  width: 100%;
+  height: 327px;
+}
+
+.four-section .card {
+  margin-top: 50px;
+  width: 100%;
+  height: 447px;
+  box-shadow: 14px 24px 72px 0px rgba(102, 102, 102, 0.1);
+  background-color: #fff;
+  margin-bottom: 80px;
+}
+
+.five-section .user-profile img {
+  position: absolute;
+  top: 1%;
+  z-index: 1;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+}
+
+.five-section .card {
+  background-color: #fff;
+}
+
+.six-section {
+  padding-top: 50px;
+}
+
+.six-section img {
+  border-radius: 8px;
+  width: 100%;
+  height: 220px;
+}
+
+.six-section .card {
+  border-radius: 8px;
+  width: 100%;
+  height: 340px;
+  background-color: #fff;
+  box-shadow: 14px 24px 72px 0px rgba(102, 102, 102, 0.1);
+}
+
+.promo-section {
+  height: 476px;
+  width: 100%;
+  background-color: #fa7436;
+  border-radius: 16px;
+}
+
+.footer-section a {
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  font-weight: 600;
+}

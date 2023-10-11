@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Volkhov:wght@700&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="page-container">
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">
+            <span class="d-inline-block align-middle">
+              <h1 class="image-type d-inline">Trabook</h1>
+              <img
+                src="img/Vector.svg"
+                alt="Logo"
+                width="25"
+                class="d-inline ml-2 align-middle"
+              />
+            </span>
+          </a>
+          <div class="navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destination</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tour</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="#">
+              <span class="button-outline-login">Login</span>
+            </a>
+            <a
+              class="nav-item nav-link btn btn-lg"
+              href="#"
+              style="
+                background-color: #fa7436;
+                color: #fff !important;
+                padding-left: 50px;
+                padding-right: 50px;
+                margin-left: 20px;
+              "
+              >Sign up</a
+            >
+          </div>
+        </nav>
+      </header>
+      <div
+        class="content"
+        style="padding-top: 40px; padding-left: 15px; padding-right: 35px"
+      >
+        <div class="row justify-content-start align-items-center">
+          <div class="col-md-6">
+            <h1 class="title-header">
+              Get started your exciting
+              <span style="color: #fa7436">journey</span>
+              with us.
+            </h1>
+            <p class="paragraph" style="padding-top: 30px">
+              A Team of experienced tourism professionals will provide you with
+              the best advice and tips for your desired place.
+            </p>
+            <button class="btn outline-button">Discover Now</button>
+          </div>
+          <div class="col-md-6 text-center" style="position: relative">
+            <img
+              src="img/img_header.png"
+              alt="img"
+              width="120%"
+              class="img-header"
+            />
+            <div class="square-cover"></div>
+            <div class="semi-circle"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-9">
+          <div class="card-m4-horizontal">
+            <div class="row justify-content-center align-items-center">
+              <div class="col">
+                <div class="card">
+                  <div class="d-flex align-items-center">
+                    <h3 class="text-center" style="margin: 0">Location</h3>
+                    <img
+                      src="img/arrow-down.svg"
+                      alt="arrow"
+                      style="padding-left: 4px"
+                    />
+                  </div>
+                  <span>Where are you going</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="d-flex align-items-center">
+                    <h3 class="text-center" style="margin: 0">Date</h3>
+                    <img
+                      src="img/arrow-down.svg"
+                      alt="arrow"
+                      style="padding-left: 4px"
+                    />
+                  </div>
+                  <span>When you will go</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="d-flex align-items-center">
+                    <h3 class="text-center" style="margin: 0">Guest</h3>
+                    <img
+                      src="img/arrow-down.svg"
+                      alt="arrow"
+                      style="padding-left: 4px"
+                    />
+                  </div>
+                  <span>Number of guest</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <button
+                    class="btn"
+                    style="
+                      background-color: #fa7436;
+                      color: #fff;
+                      padding: 15px;
+                    "
+                  >
+                    Explore Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container justify-content-center">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <h1
+              class="title-header"
+              style="font-size: 48px; text-align: center; padding-top: 100px"
+            >
+              Things you need <span style="color: #fa7436">to do</span>
+            </h1>
+          </div>
+          <div class="col-md-5">
+            <p
+              class="paragraph"
+              style="font-size: 18px; text-align: center; margin-top: 20px"
+            >
+              We ensure that you’ll embark on a perfectly planned, safe vacation
+              at a price you can afford.
+            </p>
+          </div>
+        </div>
+        <div class="second-section">
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/icon1.png" alt="icon1" />
+                  <h5 class="card-title">Sign Up</h5>
+                  <p class="card-text">
+                    Completes all the work associated with planning and
+                    processing
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/icon2.png" alt="icon2" />
+                  <h5 class="card-title">Worth of Money</h5>
+                  <p class="card-text">
+                    After successful access then book from exclusive deals &
+                    pricing
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/icon3.png" alt="icon3" />
+                  <h5 class="card-title">Exciting Travel</h5>
+                  <p class="card-text">
+                    Start and explore a wide range of exciting travel
+                    experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" style="padding-top: 80px">
+        <div class="row justify-content-center">
+          <h3 class="title-header" style="font-size: 48px">
+            Exclusive <span style="color: #fa7436">deals & discounts</span>
+          </h3>
+        </div>
+        <div class="row justify-content-center">
+          <p
+            class="paragraph"
+            style="font-size: 18px; text-align: center; margin-top: 20px"
+          >
+            Discover our fantastic early booking discounts <br />
+            & start planning your journey.
+          </p>
+        </div>
+        <div class="third-section">
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+              <div class="card">
+                <img
+                  src="img/thirdsection/img1.png"
+                  alt="img"
+                  class="img-card"
+                />
+                <div
+                  class="row align-items-center"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 30px;
+                  "
+                >
+                  <span style="font-weight: 600; font-size: 20px">Madrid</span>
+                  <a style="align-items: center">
+                    <img
+                      src="img/thirdsection/star.png"
+                      alt="star"
+                      class="icon-star"
+                    />
+                    <span>4.8</span>
+                  </a>
+                </div>
+                <div
+                  class="row"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 15px;
+                  "
+                >
+                  <span>Spain</span>
+                  <div class="prices">
+                    <span
+                      style="padding-right: 20px; text-decoration: line-through"
+                      >$950</span
+                    >
+                    <span
+                      style="
+                        background-color: #ffe7db;
+                        color: #fa7436;
+                        padding: 5px;
+                        border-radius: 10px;
+                      "
+                      >$850</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img
+                  src="img/thirdsection/img2.png"
+                  alt="img"
+                  class="img-card"
+                />
+                <div
+                  class="row align-items-center"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 30px;
+                  "
+                >
+                  <span style="font-weight: 600; font-size: 20px">Firenze</span>
+                  <a style="align-items: center">
+                    <img
+                      src="img/thirdsection/star.png"
+                      alt="star"
+                      class="icon-star"
+                    />
+                    <span>4.5</span>
+                  </a>
+                </div>
+                <div
+                  class="row"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 15px;
+                  "
+                >
+                  <span>Italy</span>
+                  <div class="prices">
+                    <span
+                      style="padding-right: 20px; text-decoration: line-through"
+                      >$850</span
+                    >
+                    <span
+                      style="
+                        background-color: #ffe7db;
+                        color: #fa7436;
+                        padding: 5px;
+                        border-radius: 10px;
+                      "
+                      >$750</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img
+                  src="img/thirdsection/img3.png"
+                  alt="img"
+                  class="img-card"
+                />
+                <div
+                  class="row align-items-center"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 30px;
+                  "
+                >
+                  <span style="font-weight: 600; font-size: 20px">Paris</span>
+                  <a style="align-items: center">
+                    <img
+                      src="img/thirdsection/star.png"
+                      alt="star"
+                      class="icon-star"
+                    />
+                    <span>4.4</span>
+                  </a>
+                </div>
+                <div
+                  class="row"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 15px;
+                  "
+                >
+                  <span>France</span>
+                  <div class="prices">
+                    <span
+                      style="padding-right: 20px; text-decoration: line-through"
+                      >$699</span
+                    >
+                    <span
+                      style="
+                        background-color: #ffe7db;
+                        color: #fa7436;
+                        padding: 5px;
+                        border-radius: 10px;
+                      "
+                      >$599</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img
+                  src="img/thirdsection/img4.png"
+                  alt="img"
+                  class="img-card"
+                />
+                <div
+                  class="row align-items-center"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 30px;
+                  "
+                >
+                  <span style="font-weight: 600; font-size: 20px">London</span>
+                  <a style="align-items: center">
+                    <img
+                      src="img/thirdsection/star.png"
+                      alt="star"
+                      class="icon-star"
+                    />
+                    <span>4.8</span>
+                  </a>
+                </div>
+                <div
+                  class="row"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 15px;
+                  "
+                >
+                  <span>UK</span>
+                  <div class="prices">
+                    <span
+                      style="padding-right: 20px; text-decoration: line-through"
+                      >$850</span
+                    >
+                    <span
+                      style="
+                        background-color: #ffe7db;
+                        color: #fa7436;
+                        padding: 5px;
+                        border-radius: 10px;
+                      "
+                      >$850</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" style="padding-top: 80px">
+        <div class="row justify-content-center">
+          <h3 class="title-header" style="font-size: 48px">
+            Best <span style="color: #fa7436">vacation plan</span>
+          </h3>
+        </div>
+        <div class="row justify-content-center">
+          <p
+            class="paragraph"
+            style="font-size: 18px; text-align: center; margin-top: 20px"
+          >
+            Plan your perfect vacation with our travel agency.<br />
+            Choose among hundreds of all-inclusive offers!
+          </p>
+        </div>
+        <div class="four-section" style="width: 100%">
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="img/foursection/img1.png"
+                  alt="img"
+                  class="img-card"
+                />
+                <div
+                  class="row align-items-center"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 30px;
+                  "
+                >
+                  <span style="font-weight: 600; font-size: 20px"
+                    >Rome, Italty</span
+                  >
+                  <a style="align-items: center">
+                    <span
+                      style="color: #fa7436; font-size: 24px; font-weight: 600"
+                      >$5,42k</span
+                    >
+                  </a>
+                </div>
+                <div
+                  class="row"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 15px;
+                  "
+                >
+                  <span style="color: #666">10 Days Trip</span>
+                  <a style="align-items: center">
+                    <img
+                      src="img/thirdsection/star.png"
+                      alt="star"
+                      class="icon-star"
+                    />
+                    <span style="color: #666">4.8</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="img/foursection/img2.png"
+                  alt="img"
+                  class="img-card"
+                />
+                <div
+                  class="row align-items-center"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 30px;
+                  "
+                >
+                  <span style="font-weight: 600; font-size: 20px"
+                    >London, UK</span
+                  >
+                  <a style="align-items: center">
+                    <span
+                      style="color: #fa7436; font-size: 24px; font-weight: 600"
+                      >$2,42k</span
+                    >
+                  </a>
+                </div>
+                <div
+                  class="row"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 15px;
+                  "
+                >
+                  <span style="color: #666">07 Days Trip</span>
+                  <a style="align-items: center">
+                    <img
+                      src="img/thirdsection/star.png"
+                      alt="star"
+                      class="icon-star"
+                    />
+                    <span style="color: #666">4.7</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="img/foursection/img3.png"
+                  alt="img"
+                  class="img-card"
+                />
+                <div
+                  class="row align-items-center"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 30px;
+                  "
+                >
+                  <span style="font-weight: 600; font-size: 20px"
+                    >Osaka, Japan</span
+                  >
+                  <a style="align-items: center">
+                    <span
+                      style="color: #fa7436; font-size: 24px; font-weight: 600"
+                      >$5,42k</span
+                    >
+                  </a>
+                </div>
+                <div
+                  class="row"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 15px;
+                  "
+                >
+                  <span style="color: #666">10 Days Trip</span>
+                  <a style="align-items: center">
+                    <img
+                      src="img/thirdsection/star.png"
+                      alt="star"
+                      class="icon-star"
+                    />
+                    <span style="color: #666">4.8</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="padding-top: 180px; padding-bottom: 180px">
+        <div class="row justify-content-start">
+          <div class="col-md-5">
+            <h1 class="title-header" style="font-size: 48px">
+              What people say <span style="color: #fa7436">about Us.</span>
+            </h1>
+            <p class="paragraph" style="font-size: 16px">
+              Our Clients send us bunch of smilies with our services and we love
+              them.
+            </p>
+          </div>
+          <div class="col-md-7">
+            <div
+              class="five-section"
+              style="width: 100%; height: 300px; position: relative"
+            >
+              <div class="user-profile">
+                <img src="img/fivesection/user.png" alt="user" />
+              </div>
+              <div
+                class="card"
+                style="
+                  border: 1px solid #d4d4d4;
+                  height: 245px;
+                  width: 82%;
+                  position: absolute;
+                  top: 10%;
+                  left: 5%;
+                  z-index: -1;
+                  padding: 40px;
+                  box-shadow: 0px 10px 80px 0px rgb(226, 226, 226);
+                "
+              >
+                <div class="testimonial">
+                  <p>
+                    “On the Windows talking painted pasture yet its express
+                    parties use. Sure last upon he same as knew next. Of
+                    believed or diverted no.”
+                  </p>
+                </div>
+                <div
+                  class="name"
+                  style="position: absolute; bottom: 0; padding-bottom: 40px"
+                >
+                  <span style="display: block; font-weight: 600"
+                    >Mike Taylor</span
+                  >
+                  <span style="color: #666; font-size: 14px"
+                    >Lahore, Pakistan</span
+                  >
+                </div>
+              </div>
+              <div
+                class="card"
+                style="
+                  border: 1px solid #d4d4d4;
+                  height: 245px;
+                  width: 75%;
+                  position: absolute;
+                  top: 40%;
+                  left: 20%;
+                  z-index: -2;
+                  padding: 40px;
+                "
+              >
+                <div class="testimonial">
+                  <p>
+                    “On the Windows talking painted pasture yet its express
+                    parties use. Sure last upon he same as knew next. Of
+                    believed or diverted no.”
+                  </p>
+                </div>
+                <div
+                  class="name"
+                  style="position: absolute; bottom: 0; padding-bottom: 30px"
+                >
+                  <span style="display: block; font-weight: 600"
+                    >Chris Thomas</span
+                  >
+                  <span style="color: #666; font-size: 14px"
+                    >CEO of Red Button</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="padding-top: 180px">
+        <div class="row justify-content-center">
+          <h3 class="title-header" style="font-size: 48px">
+            Get update with <span style="color: #fa7436">latest blog</span>
+          </h3>
+        </div>
+        <div class="six-section" style="width: 100%">
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/sixsection/img1.png" alt="img" class="img-card" />
+                <div
+                  class="row align-items-center"
+                  style="
+                    justify-content: center;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 30px;
+                  "
+                >
+                  <span style="font-weight: 600; font-size: 15px"
+                    >The Amazing Difference a Year of Travelling.</span
+                  >
+                </div>
+                <div
+                  class="row"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 7px;
+                  "
+                >
+                  <span style="color: #666; font-size: 12px"
+                    >July 27, 2021</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/sixsection/img2.png" alt="img" class="img-card" />
+                <div
+                  class="row align-items-center"
+                  style="
+                    justify-content: center;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 30px;
+                  "
+                >
+                  <span style="font-weight: 600; font-size: 15px"
+                    >Travel far enough, you meet yourself.</span
+                  >
+                </div>
+                <div
+                  class="row"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 7px;
+                  "
+                >
+                  <span style="color: #666; font-size: 12px"
+                    >July 27, 2021</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/sixsection/img3.png" alt="img" class="img-card" />
+                <div
+                  class="row align-items-center"
+                  style="
+                    justify-content: center;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 30px;
+                  "
+                >
+                  <span style="font-weight: 600; font-size: 15px"
+                    >How to Save Money While Visiting Africa .</span
+                  >
+                </div>
+                <div
+                  class="row"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 7px;
+                  "
+                >
+                  <span style="color: #666; font-size: 12px"
+                    >July 27, 2021</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/sixsection/img4.png" alt="img" class="img-card" />
+                <div
+                  class="row align-items-center"
+                  style="
+                    justify-content: center;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 30px;
+                  "
+                >
+                  <span style="font-weight: 600; font-size: 15px"
+                    >Reflections on 5 Months of Travel: Time to Hang</span
+                  >
+                </div>
+                <div
+                  class="row"
+                  style="
+                    justify-content: space-between;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 7px;
+                  "
+                >
+                  <span style="color: #666; font-size: 12px"
+                    >July 27, 2021</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="padding-top: 180px">
+        <div class="promo-section">
+          <div class="row justify-content-center" style="padding-top: 80px">
+            <h1
+              class="title-header"
+              style="
+                font-size: 48px;
+                color: #fff;
+                text-align: center;
+                font-weight: 700;
+              "
+            >
+              Subscribe and get exclusive <br />
+              deals & offers
+            </h1>
+          </div>
+          <div class="row justify-content-center" style="padding-top: 80px">
+            <div
+              class="col-md-7"
+              style="
+                background-color: #ffffff;
+                display: flex;
+                align-items: center;
+                height: 68px;
+                border-radius: 10px;
+              "
+            >
+              <div class="col-md-10" style="padding: 0">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your mail"
+                  style="
+                    border: none;
+                    border-radius: 0;
+                    outline: none;
+                    box-shadow: none;
+                  "
+                />
+              </div>
+              <div class="col-md-2 text-right" style="padding: 0">
+                <button
+                  class="btn btn-primary btn-block"
+                  style="
+                    padding: 10px;
+                    border-radius: 8px;
+                    border: none;
+                    background-color: #fa7436;
+                  "
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container" style="padding-top: 120px">
+          <div class="footer-section" style="width: 100%">
+            <div class="row">
+              <div class="col-md-7">
+                <a class="footer-logo" href="#">
+                  <span class="d-inline-block align-middle">
+                    <h1 class="image-type d-inline">Trabook</h1>
+                    <img
+                      src="img/Vector.svg"
+                      alt="Logo"
+                      width="25px"
+                      class="d-inline ml-2 align-middle"
+                    />
+                  </span>
+                </a>
+                <p style="color: #666">
+                  Book your trip in a minute, get full <br />
+                  control for much longer.
+                </p>
+              </div>
+
+              <div class="col-md">
+                <h4>Company</h4>
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+                <a href="#">Logistics</a>
+                <a href="#">Privacy & Policy</a>
+              </div>
+              <div class="col-md">
+                <h4>Contact</h4>
+                <a href="#">Help/FAQ</a>
+                <a href="#">Press</a>
+                <a href="#">Affiliates</a>
+              </div>
+              <div class="col-md">
+                <h4>More</h4>
+                <a href="#">Press Centre</a>
+                <a href="#">Our Blog</a>
+                <a href="#">Low fare tips</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container"
+          style="
+            background-color: rgba(153, 153, 153, 0.56);
+            height: 1px;
+            margin-top: 40px;
+          "
+        ></div>
+        <div class="container" style="padding-top: 10px; padding-bottom: 20px">
+          <div class="row justify-content-between">
+            <span style="font-size: 13px; color: #666"
+              >Copyright, Trabook 2022. All rights reserved.</span
+            >
+            <a
+              href="#"
+              style="text-decoration: none; color: #666; font-size: 13px"
+              >Terms & Conditions</a
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
